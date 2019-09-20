@@ -1,32 +1,131 @@
 *{
   padding: 0;
   margin: 0;
+  border: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
+
+.clearfix{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* BAR */
 
 header section{
   background-color: #33475b;
 }
 
+.margin-bar{
+  width: 85%;
+  margin: 0 auto;
+}
+
 header section img{
-  width: 3%;
-  float: left;
+  width: 60%;
 }
 
 header ul{
-  float: left;
+  display: inline-block;
 }
 
 header section li{
-  display: inline;
-  text-decoration: none;
+  display: inline-block;
   color: rgb(255, 255, 255);
+  font-weight: lighter;
+  font-size: 12px;
+  margin-right: 10px;
+  opacity: 0.5;
 }
 
-.margin-bar{
-  width: 90%;
+.left1{
+  float: left;
+  width: 5%;
+}
+
+.left2{
+  float: left;
+  width: 50%;
+}
+
+.left2 ul{
+  margin-top: 9px;
+}
+
+#login{
+  float: right;
+  width: 25%;
+  margin-top: 3px;
+  text-align: right;
+}
+
+#login .fa-search{
+  margin-right: 10%;
+}
+
+#login .fa-cog{
+  padding-right: 10%;
+}
+
+#login p{
+  display: inline-block;
+  font-size: 25px;
+}
+
+#login .fa-user{
+  padding: 5px;
+  margin: 0 10%;
+  border-radius: 50%;
+  border: solid 1px rgb(0, 0, 0);
+}
+
+#login span{
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+}
+
+/* SECOND BAR */
+
+.bg-light-grey{
+  background-color: #d1d7da;
+}
+
+.margin{
+  width: 70%;
   margin: 0 auto;
-  content: "";
-  display: table;
-  clear: both;
+  padding: 2.5% 0;
+}
+
+.margin p{
+  display: inline-block;
+  padding-right: 2%
+}
+
+.right{
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+
+header .fa-globe-europe{
+  padding-right: 2%
+}
+
+header .bg-light-grey span{
+  font-weight: bold;
+  font-size: 20px;
+  padding-right: 2%;
+}
+
+header .right .fa-search{
+  padding-right: 2%;
+}
+
+header .right button{
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 145, 0);
+  border: 1px solid rgb(0, 0, 0);
+  padding: 5px 20px;
 }
