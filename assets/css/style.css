@@ -1,0 +1,32 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header section{
+  background-color: #33475b;
+}
+
+header section img{
+  width: 3%;
+  float: left;
+}
+
+header ul{
+  float: left;
+}
+
+header section li{
+  display: inline;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.margin-bar{
+  width: 90%;
+  margin: 0 auto;
+  content: "";
+  display: table;
+  clear: both;
+}
