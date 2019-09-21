@@ -368,3 +368,77 @@ nav li a{
 }
 
 /* PARTNERS */
+
+.partners{
+  padding: 7% 0;
+}
+
+.partners h3{
+  font-size: 40px;
+  padding-bottom: 4%;
+}
+
+.partners .left1{
+  float: left;
+  width: 30%;
+  margin-right: 10%
+}
+
+.partners .left2{
+  float: left;
+  width: 60%;
+}
+
+.partners .part-logo{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.testimonial-left{
+  float: left;
+  width: 60%;
+}
+
+.partners .testimonial-left h3{
+  font-size: 30px;
+  padding-bottom: 0;
+  font-weight: bold;
+}
+
+.partners .testimonial-left p{
+  padding: 4% 0;
+  line-height: 30px;
+}
+
+.partners .testimonial-left button{
+  color: rgb(255, 255, 255);
+  background-color: #ff7a59;
+  font-size: 20px;
+  font-weight: lighter;
+  padding: 30px 30px;
+  border-radius: 3px;
+}
+
+.partners .part-logo img{
+  float: left;
+  width: 25%;
+  padding: 3%;
+}
+
+
+.testimonial-right{
+  float: left;
+  width: 20%;
+  margin: 0 10%;
+}
+
+.testimonial-right img{
+  height: 300px;
+}
+
+.mgtop{
+  padding-top: 7%;
+}
+
+/* FOOTER */
