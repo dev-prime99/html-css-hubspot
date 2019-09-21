@@ -97,7 +97,7 @@ header .bg-light-grey .margin{
 }
 
 .margin{
-  width: 70%;
+  width: 77%;
   margin: 0 auto;
 }
 
@@ -315,3 +315,56 @@ nav li a{
 .bt{
   margin: 0 5%;
 }
+
+/* NUMBER */
+
+.bg-light-blue{
+  background: linear-gradient(45deg, #00a4bd, #00bda5);
+  width: 100%;
+  color: #ffffff;
+}
+
+.number .margini2{
+  width: 55%;
+  margin: 0 auto;
+  padding: 7% 0;
+}
+
+.number .margini2 h2{
+  font-size: 32px;
+}
+
+.number .margini2 p{
+  padding-top: 3%;
+  font-weight: lighter;
+}
+
+.num-col{
+  float: left;
+  width: 25%;
+  padding: 3% 0px;
+}
+
+.num-col h2{
+  padding: 2% 0;
+  font-size: 35px;
+}
+
+.num-col p{
+  font-size: 14px;
+}
+
+.margin.second{
+  padding-bottom: 7%;
+}
+
+.margin.second .num-col{
+  padding: 3% 0;
+  border-top: 2px solid #ffffff;
+}
+
+.num-col.bd-right{
+  border-right: 1px solid #ffffff;
+}
+
+/* PARTNERS */
