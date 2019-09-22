@@ -14,6 +14,13 @@
 
 /* BAR */
 
+header{
+  z-index: 9999;
+  position:fixed;
+  top:0;
+  width:100%;
+}
+
 header section{
   background-color: #33475b;
 }
@@ -133,10 +140,16 @@ header .right button{
   padding: 5px 20px;
 }
 
+header .right button:hover{
+  background-color: #ff8f73;
+}
+
+
 /* NAVBAR */
 
 nav{
-  padding: 1% 0;
+  padding-top: 10%;
+  padding-bottom: 1%;
 }
 
 nav li{
@@ -175,6 +188,11 @@ nav li a{
   font-size: 17px;
   border-radius: 3px;
 }
+
+.hsfree button:hover{
+  background-color: #ff8f73;
+}
+
 
 /* SERVICE */
 
@@ -224,6 +242,11 @@ nav li a{
   border-radius: 3px;
   margin-top: 5px;
 }
+
+.free .left1 button:hover{
+  background-color: #ff8f73;
+}
+
 
 .free img{
   width: 100%;
@@ -311,6 +334,11 @@ nav li a{
   border-radius: 3px;
   margin-bottom: 10%;
 }
+
+.col-left button:hover{
+  background-color: #ff8f73;
+}
+
 
 .bt{
   margin: 0 5%;
@@ -420,6 +448,10 @@ nav li a{
   border-radius: 3px;
 }
 
+.testimonial-left button:hover{
+  background-color: #ff8f73;
+}
+
 .partners .part-logo img{
   float: left;
   width: 25%;
@@ -503,6 +535,11 @@ footer .foot button{
   font-size: 20px;
 }
 
+.foot a:hover{
+  color: #7fd1de;
+  opacity: 1.0;
+}
+
 
 
 .margin3{
@@ -524,6 +561,11 @@ footer .foot button{
 .ft-languages li{
   display: inline;
   padding: 0 1%;
+}
+
+.ft-languages a:hover{
+  color: #7fd1de;
+  opacity: 1.0;
 }
 
 .copy{
@@ -551,4 +593,23 @@ footer .foot button{
 .copy .left2 li{
   display: inline-block;
   padding-left: 7%
+}
+
+.copy a:hover{
+  color: #7fd1de;
+}
+
+/* BUTTON MESSAGE */
+
+.bm .fas{
+  background-color: #425b77;
+  text-align: center;
+  font-size: 40px;
+  color: #ffffff;
+  padding: 1%;
+  border-radius: 50%;
+  z-index: 9989;
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
 }
