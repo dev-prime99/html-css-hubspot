@@ -142,6 +142,7 @@ header .right button{
 
 header .right button:hover{
   background-color: #ff8f73;
+  cursor:pointer;
 }
 
 
@@ -191,6 +192,7 @@ nav li a{
 
 .hsfree button:hover{
   background-color: #ff8f73;
+  cursor:pointer;
 }
 
 
@@ -245,6 +247,7 @@ nav li a{
 
 .free .left1 button:hover{
   background-color: #ff8f73;
+  cursor:pointer;
 }
 
 
@@ -337,6 +340,7 @@ nav li a{
 
 .col-left button:hover{
   background-color: #ff8f73;
+  cursor:pointer;
 }
 
 
@@ -450,6 +454,7 @@ nav li a{
 
 .testimonial-left button:hover{
   background-color: #ff8f73;
+  cursor:pointer;
 }
 
 .partners .part-logo img{
@@ -522,6 +527,11 @@ footer .foot button{
   margin: 4% 0;
 }
 
+footer .foot button:hover{
+  background-color: #f5f8fa;
+  cursor:pointer;
+}
+
 .foot #ft-line li{
   display: inline-block;
   padding-right: 8.5%;
@@ -566,6 +576,7 @@ footer .foot button{
 .ft-languages a:hover{
   color: #7fd1de;
   opacity: 1.0;
+  cursor:pointer;
 }
 
 .copy{
@@ -597,6 +608,7 @@ footer .foot button{
 
 .copy a:hover{
   color: #7fd1de;
+  cursor:pointer;
 }
 
 /* BUTTON MESSAGE */
